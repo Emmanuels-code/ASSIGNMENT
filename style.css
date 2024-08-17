@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+   }
+   
+   nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+   }
+   
+   nav li {
+    margin-right: 20px;
+   }
+   
+   nav a {
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+   }
+   
+   section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+   
+   h2 {
+    margin-top: 0;
+   }
+   
+   ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   }
+   
+   li {
+    margin-bottom: 10px;
+   }
+   #menu {
+       min-width: 550px;
+   }
+   #menu h2 {
+   text-align: center;
+   }
+   
+   #menu-list {
+    padding: 0;
+   }
+   
+   #menu-form {
+    margin-top: 20px;
+    min-width: 500px;
+   }
+   #about {
+       min-width: 550px;
+   }
+   
+   #menu-form input{
+       padding: 10px;
+       border-radius: 5px;
+       border: 1px solid #ababab;
+       font-size: 15px;
+   }
+   #menu-form button {
+       padding: 10px;
+       border-radius: 5px;
+       border: 1px solid #ababab;
+       font-size: 15px;
+       background: #333333;
+       color: white;
+       font-weight: bold;
+   }
+   #dish-name, #dish-price {
+    margin-bottom: 10px;
+   }
+   .contactform {
+       display: flex;
+       justify-content: center;
+       flex-flow: column;
+       width: 100%;
+       min-width: 600px;
+       gap: 7px;
+       border-radius: 5px;
+   }
+   
+   .contactform input, textarea {
+      padding: 10px;
+       border-radius: 5px;
+       border: 1px solid #ababab;
+       font-size: 15px;
+   }
+   
+   .contactform button {
+      padding: 10px;
+       border-radius: 5px;
+       border: 1px solid #ababab;
+       font-size: 15px;
+       background: #333333;
+       color: white;
+       font-weight: bold;
+   }
+   
